@@ -1,7 +1,33 @@
-$subTitleColor: #6699ff;
+$subTitleColor: #3333ff;
+$mainColor: #00b3b3;
 
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ }
 
 
 h2,h3 {
   color: $subTitleColor;
+  text-align: center;
+  padding-bottom: 20px;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.square {
+  display: flex;
+  flex-direction: column;
+  background-color: $mainColor;
+  width: 45%;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 30px;
+
+}
+.title {
+  width: 100%
 }
